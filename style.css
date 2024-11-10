@@ -11,6 +11,11 @@
     /* font weigth */
     --regular: 400;
     --black: 800;
+
+    /* height and widht */
+    --section-height: 720px;
+    --arrow-height: 30px;
+    --arrow-width: 30px;
 }
 
 * {
@@ -21,7 +26,6 @@
 
 body {
     background-color: var(--smoth-white);
-    padding: 0 2.5rem;
 
     font-family: "Poppins", sans-serif;
     font-weight: var(--regular);
@@ -32,7 +36,7 @@ body {
     height: 150px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     border: 1px solid 
@@ -63,6 +67,8 @@ body {
 
 .section {
     height: 720px;
+    display: flex;
+    justify-content: center;
 }
 
 .section-brown {
@@ -75,4 +81,13 @@ body {
 
 .section-smoth-white {
     background-color: var(--smoth-white);
+}
+
+.arrow {
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    position: relative;
+    /* section heigth minus half of height of arrow (720px - 15px) */
+    top: 705px;
 }
