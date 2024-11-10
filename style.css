@@ -25,6 +25,7 @@
 }
 
 body {
+    padding-top: 30px;
     background-color: var(--smoth-white);
 
     font-family: "Poppins", sans-serif;
@@ -33,36 +34,56 @@ body {
 }
 
 .header {
+    background-color: var(--smoth-white);
+    box-shadow: 2px 0 100px var(--dark-blue);
+
+    width: 100%;
     height: 150px;
+    
     display: flex;
-    text-align: center;
     justify-content: space-around;
     align-items: center;
 
-    border: 1px solid 
-    #20212b;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
 }
 
 #logo-white {
     width: 250px;
     height: 150px;
-    border-bottom: 1px solid black;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
 
-    border: 2px solid black;
-
+    
     width: 40vw;
 }
 
 .link {
     text-decoration: none;
     color: var(--brown);
+    padding: 0 10px;
+    position: relative;
     
-    border: 1px solid red;
+}
+
+.link::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: var(--brown);
+    height: 3px;
+    width: 0;
+    transition: .2s ease-in-out;
+}
+
+.link:hover::after {
+    width: 100%;
 }
 
 .section {
