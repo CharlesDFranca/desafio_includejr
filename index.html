@@ -16,19 +16,21 @@
             >
 
         <nav class="nav-links">
-            <a href="#" class="link">Sobre nós</a>
-            <a href="#" class="link">Nossos Valores</a>
-            <a href="#" class="link">Contatos</a>
+            <a href="#about-us" class="link">Sobre nós</a>
+            <a href="#our-values" class="link">Nossos Valores</a>
+            <a href="#contacts" class="link">Contatos</a>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <section class="section brown">
             <div class="container">
                 <div class="container-content">
                     <h1 class="title text-smooth-white">Perca-se em Histórias, <br/> Encontre-se em Sabores</h1>
                     <p class="content text-smooth-white">Deixe o mundo lá fora. Aqui, cada café é uma pausa, cada livro, uma jornada. Encontre o espaço perfeito para relaxar, saborear e se envolver entre aromas e histórias inesquecíveis.</p>
-                    <button class="button dark-blue text-smooth-yellow">Venha nos conhecer!</button>
+                    <a href="#about-us">
+                        <button class="button dark-blue text-smooth-yellow">Venha nos conhecer!</button>
+                    </a>
                 </div>
 
                 <img
@@ -41,7 +43,7 @@
             <div class="arrow brown"></div>
         </section>
 
-        <section class="section dark-blue">
+        <section id="about-us" class="section dark-blue">
             <div class="container">
                 <img
                     src="./images/drinks/coffee-and-book.jpg"
@@ -52,24 +54,59 @@
                 <div class="container-content">
                     <h2 class="title text-smooth-yellow">Sobre nós</h2>
                     <p class="content text-smooth-white">Somos um refúgio para quem aprecia um bom café e uma boa leitura. No nosso espaço, o aroma do café se mistura ao prazer de explorar histórias. Em cada canto acolhedor, você encontra um convite para relaxar, escolher um livro e aproveitar um momento de tranquilidade. Aqui, cada página virada e cada gole trazem uma nova experiência.</p>
-                    <button class="button brown text-smooth-white">Venha nos conhecer!</button>
+                    
+                    <a href="#our-values">
+                        <button class="button brown text-smooth-white">Conheça nossos valores!</button>
+                    </a>
                 </div>
             </div>
 
             <div class="arrow dark-blue"></div>
         </section>
 
-        <section class="section smooth-white">
+        <section id="our-values" class="section smooth-white">
+            <div class="container">
+                <div class="container-circles">
+                    <div class="wrapper">
+                        <div class="circle brown"></div>
+                        <h2 class="title text-brown">Missão</h2>
+                        <p class="content text-dark-blue">Oferecer um ambiente acolhedor e inspirador onde o prazer de ler e o sabor do café se encontram, proporcionando momentos de pausa e conexão para nossos clientes.</p>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="circle brown"></div>
+                        <h2 class="title text-brown">Visão</h2>
+                        <p class="content text-dark-blue">Ser reconhecido como um refúgio literário e cultural, um espaço onde pessoas de todas as idade  s possam relaxar, se inspirar e compartilhar experiências em torno de livros e sabores </p>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="circle brown"></div>
+                        <h2 class="title text-brown">Valores</h2>
+
+                            <ul class="content our-values">
+                                <li>Acolhimento</li>
+                                <li>Inspiração</li>
+                                <li>Qualidade</li>
+                                <li>Respeito</li>
+                                <li>Cultura e Aprendizado</li>
+                            </ul>
+                    </div>
+                </div>
+                <a href="#menu">
+                    <button class="button brown text-smooth-white">Um pouco do nosso cardápio</button>
+                </a>
+            </div>
             <div class="arrow smooth-white"></div>
         </section>
 
-        <section class="section dark-blue">
+        <section id="menu" class="section dark-blue">
+            
             <div class="arrow dark-blue"></div>
         </section>
         <section class="section brown">
             <div class="arrow brown"></div>
         </section>
-        <section class="section smooth-white">
+        <section id="contacts" class="section smooth-white">
             <div class="arrow smooth-white"></div>
         </section>
     </main>
