@@ -94,7 +94,7 @@ body {
     top: 0;
 }
 
-#logo-white {
+#logo {
     width: 250px;
     height: 200px;
 }
@@ -334,6 +334,10 @@ body {
     max-width: 400px;
 }
 
+#contacts .container {
+    padding-top: 30px;
+}
+
 .social-media-logo {
     width: 100px;
     height: 100px;
@@ -342,4 +346,18 @@ body {
 .perfil-name {
     font-size: 25px;
     font-weight: var(--bold);
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer #logo {
+    height: 300px;
+    width: 400px;
 }
