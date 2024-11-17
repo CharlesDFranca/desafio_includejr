@@ -94,7 +94,7 @@ body {
     top: 0;
 }
 
-#logo {
+.logo {
     width: 250px;
     height: 200px;
 }
@@ -357,7 +357,7 @@ body {
     overflow: hidden;
 }
 
-.footer #logo {
+.footer .logo {
     height: 300px;
     width: 400px;
 }
