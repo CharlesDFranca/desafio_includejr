@@ -302,8 +302,6 @@ body {
     height: 280px;
     width: 200px;
 
-    background-color: var(--smooth-yellow);
-
     border-radius: var(--normal);
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.55);
 
@@ -330,4 +328,8 @@ body {
 
 .focused {
     transform: scale(1.4, 1.2);
+}
+
+#literaly-collection .container-content .list{
+    max-width: 400px;
 }
