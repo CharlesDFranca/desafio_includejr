@@ -1,224 +1,342 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio - IncludeJR</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-        <img 
-            src="./images/logo/Café Entre Páginas_white.jpg"
-            id="logo-white" 
-            alt="A logo do estabelecimento 'Café entre Páginas', contém uma xícara e um livro, o slogam do estabelecimento é: 'Onde cada xícara conta uma história'"
-            >
+      <img
+        src="./images/logo/Café Entre Páginas_white.jpg"
+        id="logo-white"
+        alt="A logo do estabelecimento 'Café entre Páginas', contém uma xícara e um livro, o slogam do estabelecimento é: 'Onde cada xícara conta uma história'"
+      />
 
-        <nav class="nav-links">
-            <a href="#about-us" class="link">Sobre nós</a>
-            <a href="#our-values" class="link">Nossos Valores</a>
-            <a href="#contacts" class="link">Contatos</a>
-        </nav>
+      <nav class="nav-links">
+        <a href="#about-us" class="link">Sobre nós</a>
+        <a href="#our-values" class="link">Nossos Valores</a>
+        <a href="#contacts" class="link">Contatos</a>
+      </nav>
     </header>
 
     <main class="main">
-        <section id="first-section" class="section brown">
-            <div class="container">
-                <div class="container-content">
-                    <h1 class="title text-smooth-white">Perca-se em Histórias, <br/> Encontre-se em Sabores</h1>
-                    <p class="content text-smooth-white">Deixe o mundo lá fora. Aqui, cada café é uma pausa, cada livro, uma jornada. Encontre o espaço perfeito para relaxar, saborear e se envolver entre aromas e histórias inesquecíveis.</p>
-                    <a href="#about-us">
-                        <button class="button dark-blue text-smooth-yellow">Venha nos conhecer!</button>
-                    </a>
-                </div>
+      <section id="first-section" class="section brown">
+        <div class="container">
+          <div class="container-content">
+            <h1 class="title text-smooth-white">
+              Perca-se em Histórias, <br />
+              Encontre-se em Sabores
+            </h1>
+            <p class="content text-smooth-white">
+              Deixe o mundo lá fora. Aqui, cada café é uma pausa, cada livro,
+              uma jornada. Encontre o espaço perfeito para relaxar, saborear e
+              se envolver entre aromas e histórias inesquecíveis.
+            </p>
+            <a href="#about-us">
+              <button class="button dark-blue text-smooth-yellow">
+                Venha nos conhecer!
+              </button>
+            </a>
+          </div>
 
+          <img
+            src="./images/drinks/coffee-and-jar.jpg"
+            class="image"
+            alt="Uma xícara de café com uma colher ao lado e uma jarra de metal"
+          />
+        </div>
+
+        <div class="arrow brown"></div>
+      </section>
+
+      <section id="about-us" class="section dark-blue">
+        <div class="container">
+          <img
+            src="./images/drinks/coffee-and-book.jpg"
+            class="image"
+            alt="Uma xícara de café com um livro ao lado"
+          />
+
+          <div class="container-content">
+            <h2 class="title text-smooth-yellow">Sobre nós</h2>
+            <p class="content text-smooth-white">
+              Somos um refúgio para quem aprecia um bom café e uma boa leitura.
+              No nosso espaço, o aroma do café se mistura ao prazer de explorar
+              histórias. Em cada canto acolhedor, você encontra um convite para
+              relaxar, escolher um livro e aproveitar um momento de
+              tranquilidade. Aqui, cada página virada e cada gole trazem uma
+              nova experiência.
+            </p>
+
+            <a href="#our-values">
+              <button class="button brown text-smooth-white">
+                Conheça nossos valores!
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="arrow dark-blue"></div>
+      </section>
+
+      <section id="our-values" class="section smooth-white">
+        <div class="container">
+          <div class="container-circles">
+            <div class="wrapper">
+              <div class="circle brown"></div>
+              <h2 class="title text-brown">Missão</h2>
+              <p class="content text-dark-blue">
+                Oferecer um ambiente acolhedor e inspirador onde o prazer de ler
+                e o sabor do café se encontram, proporcionando momentos de pausa
+                e conexão para nossos clientes.
+              </p>
+            </div>
+
+            <div class="wrapper">
+              <div class="circle brown"></div>
+              <h2 class="title text-brown">Visão</h2>
+              <p class="content text-dark-blue">
+                Ser reconhecido como um refúgio literário e cultural, um espaço
+                onde pessoas de todas as idade s possam relaxar, se inspirar e
+                compartilhar experiências em torno de livros e sabores
+              </p>
+            </div>
+
+            <div class="wrapper">
+              <div class="circle brown"></div>
+              <h2 class="title text-brown">Valores</h2>
+
+              <ul class="content our-values">
+                <li>Acolhimento</li>
+                <li>Inspiração</li>
+                <li>Qualidade</li>
+                <li>Respeito</li>
+                <li>Cultura e Aprendizado</li>
+              </ul>
+            </div>
+          </div>
+          <a href="#menu">
+            <button class="button dark-blue text-smooth-yellow">
+              Um pouco do nosso cardápio
+            </button>
+          </a>
+        </div>
+        <div class="arrow smooth-white"></div>
+      </section>
+
+      <section id="menu" class="section dark-blue">
+        <div class="container">
+          <div class="container-content">
+            <h2 class="title text-smooth-yellow">Nosso Cardápio</h2>
+            <ul class="list text-smooth-white">
+              <li class="list-item">
+                <p class="list-content">
+                  <b>Cappuccino Inspirador: </b>
+                  Café expresso com leite vaporizado e cobertura de canela ou
+                  chocolate.
+                </p>
+              </li>
+
+              <li class="list-item">
+                <p class="list-content">
+                  <b>Chocolate Quente Gourmet: </b>
+                  Chocolate derretido com leite e um toque de baunilha.
+                </p>
+              </li>
+
+              <li class="list-item">
+                <p class="list-content">
+                  <b>Smoothie dos Sonhadores: </b>
+                  Smoothie cremoso de morango e banana, leve e refrescante.
+                </p>
+              </li>
+
+              <li class="list-item">
+                <p class="list-content">
+                  <b>Brownie Literário: </b>
+                  Brownie de chocolate, perfeito para os amantes de doce.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cards-container">
+            <div class="cards">
+              <div class="card smooth-yellow text-brown">
                 <img
-                    src="./images/drinks/coffee-and-jar.jpg"
-                    class="image"
-                    alt="Uma xícara de café com uma colher ao lado e uma jarra de metal"
-                >
-            </div>
-
-            <div class="arrow brown"></div>
-        </section>
-
-        <section id="about-us" class="section dark-blue">
-            <div class="container">
+                  src="images/drinks/tea.jpg"
+                  alt="Uma xícara de chá de hortelã."
+                />
+                <span>Chá de Hortelã</span>
+              </div>
+              <div class="card smooth-yellow text-brown focused">
                 <img
-                    src="./images/drinks/coffee-and-book.jpg"
-                    class="image"
-                    alt="Uma xícara de café com um livro ao lado"
-                >
-
-                <div class="container-content">
-                    <h2 class="title text-smooth-yellow">Sobre nós</h2>
-                    <p class="content text-smooth-white">Somos um refúgio para quem aprecia um bom café e uma boa leitura. No nosso espaço, o aroma do café se mistura ao prazer de explorar histórias. Em cada canto acolhedor, você encontra um convite para relaxar, escolher um livro e aproveitar um momento de tranquilidade. Aqui, cada página virada e cada gole trazem uma nova experiência.</p>
-                    
-                    <a href="#our-values">
-                        <button class="button brown text-smooth-white">Conheça nossos valores!</button>
-                    </a>
-                </div>
+                  src="images/drinks/capuccino.jpg"
+                  alt="Uma xícara de cappuccino com vários corações um acima do outro."
+                />
+                <span>Capuccino Literário</span>
+              </div>
+              <div class="card smooth-yellow text-brown">
+                <img
+                  src="images/drinks/coffee.jpg"
+                  alt="Uma xícara de café ao lado de uma colher."
+                />
+                <span>Café Clássico</span>
+              </div>
             </div>
 
-            <div class="arrow dark-blue"></div>
-        </section>
+            <a href="#literaly-collection">
+              <button class="button brown text-smooth-white">
+                Conheça nosso acervo literário
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="arrow dark-blue"></div>
+      </section>
 
-        <section id="our-values" class="section smooth-white">
-            <div class="container">
-                <div class="container-circles">
-                    <div class="wrapper">
-                        <div class="circle brown"></div>
-                        <h2 class="title text-brown">Missão</h2>
-                        <p class="content text-dark-blue">Oferecer um ambiente acolhedor e inspirador onde o prazer de ler e o sabor do café se encontram, proporcionando momentos de pausa e conexão para nossos clientes.</p>
-                    </div>
-
-                    <div class="wrapper">
-                        <div class="circle brown"></div>
-                        <h2 class="title text-brown">Visão</h2>
-                        <p class="content text-dark-blue">Ser reconhecido como um refúgio literário e cultural, um espaço onde pessoas de todas as idade  s possam relaxar, se inspirar e compartilhar experiências em torno de livros e sabores </p>
-                    </div>
-
-                    <div class="wrapper">
-                        <div class="circle brown"></div>
-                        <h2 class="title text-brown">Valores</h2>
-
-                            <ul class="content our-values">
-                                <li>Acolhimento</li>
-                                <li>Inspiração</li>
-                                <li>Qualidade</li>
-                                <li>Respeito</li>
-                                <li>Cultura e Aprendizado</li>
-                            </ul>
-                    </div>
-                </div>
-                <a href="#menu">
-                    <button class="button dark-blue text-smooth-yellow">Um pouco do nosso cardápio</button>
-                </a>
+      <section id="literaly-collection" class="section brown">
+        <div class="container">
+          <div class="cards-container">
+            <div class="cards">
+              <div class="card dark-blue text-smooth-yellow">
+                <img
+                  src="images/books/a_lamina_da_assassina.jpg"
+                  alt="Capa do livro: A lâmina da assassina."
+                />
+                <span>A Lâmina da Assassina</span>
+              </div>
+              <div class="card dark-blue text-smooth-yellow focused">
+                <img
+                  src="images/books/e_assim_que_acaba.png"
+                  alt="Capa do livro: É assim que acaba."
+                />
+                <span>É assim que acaba</span>
+              </div>
+              <div class="card dark-blue text-smooth-yellow">
+                <img
+                  src="images/books/it_a_coisa.jpg"
+                  alt="Capa do livro: It, A coisa."
+                />
+                <span>IT a coisa</span>
+              </div>
             </div>
-            <div class="arrow smooth-white"></div>
-        </section>
 
-        <section id="menu" class="section dark-blue">
-            <div class="container">
-                <div class="container-content">
-                    <h2 class="title text-smooth-yellow">Nosso Cardápio</h2>
-                        <ul class="list text-smooth-white">
-                            <li class="list-item">
-                                <p class="list-content">
-                                    <b>Cappuccino Inspirador: </b>
-                                    Café expresso com leite vaporizado e cobertura de canela ou chocolate.
-                                </p>
-                            </li>
+            <a href="#contacts">
+              <button class="button dark-blue text-smooth-yellow">
+                Conheça nossas redes sociais!
+              </button>
+            </a>
+          </div>
 
-                            <li class="list-item">    
-                                <p class="list-content">
-                                    <b>Chocolate Quente Gourmet: </b>
-                                    Chocolate derretido com leite e um toque de baunilha.
-                                </p>
-                            </li>
+          <div class="container-content">
+            <h2 class="title text-dark-blue">Acervo Literário</h2>
+            <ul class="list text-smooth-white">
+              <li class="list-item">
+                <p class="list-content">
+                  <b>A Lâmina da Assassina – Sarah J. Maas: </b>
+                  Uma introdução ao mundo da série Trono de Vidro, onde
+                  acompanhamos Celaena Sardothien em uma história de vingança e
+                  força.
+                </p>
+              </li>
 
-                            <li class="list-item">
-                                
-                                <p class="list-content">
-                                    <b>Smoothie dos Sonhadores: </b>
-                                    Smoothie cremoso de morango e banana, leve e refrescante.
-                                </p>
-                            </li>
+              <li class="list-item">
+                <p class="list-content">
+                  <b>It: A Coisa – Stephen King: </b>
+                  Um clássico do terror, onde um grupo de amigos precisa
+                  enfrentar um mal sobrenatural que assombra a cidade de Derry.
+                </p>
+              </li>
 
-                            <li class="list-item">
-                                <p class="list-content">
-                                    <b>Brownie Literário: </b>
-                                    Brownie de chocolate, perfeito para os amantes de doce.
-                                </p>
-                            </li>
-                        </ul>
+              <li class="list-item">
+                <p class="list-content">
+                  <b>Garota Exemplar – Gillian Flynn: </b>
+                  Um suspense repleto de mistério e revelações inesperadas sobre
+                  um casamento à beira do colapso.
+                </p>
+              </li>
+            </ul>
+          </div>
 
-                </div>
+          <div class="arrow brown"></div>
+        </div>
+      </section>
 
-                <div class="cards-container">
-                    <div class="cards">
-                        <div class="card smooth-yellow text-brown">
-                            <img src="images/drinks/tea.jpg" alt="Uma xícara de chá de hortelã.">
-                            <span>Chá de Hortelã</span>
-                        </div>
-                        <div class="card smooth-yellow text-brown focused">
-                            <img src="images/drinks/capuccino.jpg" alt="Uma xícara de cappuccino com vários corações um acima do outro.">
-                            <span>Capuccino Literário</span>
-                        </div>
-                        <div class="card smooth-yellow text-brown">
-                            <img src="images/drinks/coffee.jpg" alt="Uma xícara de café ao lado de uma colher.">
-                            <span>Café Clássico</span>
-                        </div>
-                    </div>
+      <section id="contacts" class="section smooth-white">
+        <div class="container">
+          <div class="container-circles">
+            <div class="wrapper">
+              <h2 class="title text-brown">Instagram</h2>
 
-                    <a href="#literaly-collection">
-                        <button class="button brown text-smooth-white">Conheça nosso acervo literário</button>
-                    </a>
-                </div>
+              <img
+                class="social-media-logo"
+                src="images/social-media-logos/instagram.png"
+                alt="A logo do
+              instagram"
+              />
+
+              <h3 class="perfil-name text-brown">@cafeentrepaginas_ofc</h3>
+
+              <p class="content text-dark-blue">
+                Curta momentos de leitura e café com a gente no Instagram! 📸
+                Acompanhe as novidades do cardápio, as novas edições do acervo e
+                inspire-se com o clima do nosso café – feito para quem ama
+                histórias e boas pausas. Siga @CafeEntrePaginas e viva essa
+                experiência conosco! ☕📚
+              </p>
             </div>
-            <div class="arrow dark-blue"></div>
-        </section>
-        
-        <section id="literaly-collection" class="section brown">
-            <div class="container">
-                <div class="cards-container">
-                    <div class="cards">
-                        <div class="card dark-blue text-smooth-yellow">
-                            <img src="images/books/a_lamina_da_assassina.jpg" alt="Capa do livro: A lâmina da assassina.">
-                            <span>A Lâmina da Assassina</span>
-                        </div>
-                        <div class="card dark-blue text-smooth-yellow focused">
-                            <img src="images/books/e_assim_que_acaba.png" alt="Capa do livro: É assim que acaba.">
-                            <span>É assim que acaba</span>
-                        </div>
-                        <div class="card dark-blue text-smooth-yellow">
-                            <img src="images/books/it_a_coisa.jpg" alt="Capa do livro: It, A coisa.">
-                            <span>IT a coisa</span>
-                        </div>
-                    </div>
 
-                    <a href="#literaly-collection">
-                        <button class="button dark-blue text-smooth-yellow">Conheça nossas redes sociais!</button>
-                    </a>
-                </div>
+            <div class="wrapper">
+              <h2 class="title text-brown">Facebook</h2>
 
-                <div class="container-content">
-                    <h2 class="title text-dark-blue">Acervo Literário</h2>
-                        <ul class="list text-smooth-white">
-                            <li class="list-item">
-                                <p class="list-content">
-                                    <b>A Lâmina da Assassina – Sarah J. Maas: </b>
-                                    Uma introdução ao mundo da série Trono de Vidro, onde acompanhamos Celaena Sardothien em uma história de vingança e força.
-                                </p>
-                            </li>
+              <img
+                class="social-media-logo"
+                src="images/social-media-logos/facebook.png"
+                alt="A logo do
+              facebook"
+              />
 
-                            <li class="list-item">    
-                                <p class="list-content">
-                                    <b>It: A Coisa – Stephen King: </b>
-                                    Um clássico do terror, onde um grupo de amigos precisa enfrentar um mal sobrenatural que assombra a cidade de Derry.
-                                </p>
-                            </li>
+              <h3 class="perfil-name text-brown">@cafeentrepaginas_ofc</h3>
 
-                            <li class="list-item">
-                                
-                                <p class="list-content">
-                                    <b>Garota Exemplar – Gillian Flynn: </b>
-                                    Um suspense repleto de mistério e revelações inesperadas sobre um casamento à beira do colapso.
-                                </p>
-                            </li>
-                        </ul>
-
-                </div>
-
-                <div class="arrow brown"></div>
+              <p class="content text-dark-blue">
+                Fique por dentro do nosso mundo no Facebook! 💬 Lá,
+                compartilhamos eventos literários, promoções exclusivas e tudo o
+                que torna o Café Entre Páginas um espaço tão especial. Não perca
+                as novidades e venha se conectar com nossa comunidade de
+                leitores e amantes de café. Curta nossa página e acompanhe!
+              </p>
             </div>
-        </section>
-        <section id="contacts" class="section smooth-white">
-            <div class="arrow smooth-white"></div>
-        </section>
+
+            <div class="wrapper">
+              <h2 class="title text-brown">Twitter - X</h2>
+
+              <img
+                class="social-media-logo"
+                src="images/social-media-logos/twitter.png"
+                alt="A antiga logo do
+              twitter"
+              />
+
+              <h3 class="perfil-name text-brown">@cafeentrepaginas_ofc</h3>
+
+              <p class="content text-dark-blue">
+                Quer uma pausa para inspiração? Siga o Café Entre Páginas no X e
+                veja as novidades em primeira mão! 📚☕ Por lá, você encontra
+                lançamentos do acervo, dicas de leitura e tudo sobre nosso
+                ambiente feito para relaxar e aproveitar. Dê um follow e venha
+                conversar com a gente!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow smooth-white"></div>
+      </section>
     </main>
 
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
